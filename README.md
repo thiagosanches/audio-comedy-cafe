@@ -106,8 +106,6 @@ A sample file will be generated, and all you need to do is add your own hotkeys 
     Control+Shift+1
 "/home/user/github/audio-comedy-cafe/play.sh /home/user/github/audio-comedy-cafe/audio2.mp3"
     Control+Shift+2
-"/home/user/github/audio-comedy-cafe/play.sh /home/user/github/audio-comedy-cafe/audio3.mp3"
-    Control+Shift+3
 ```
 
 Update the `user` value in the path to match your own username.
