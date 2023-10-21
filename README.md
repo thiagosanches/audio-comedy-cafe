@@ -15,10 +15,10 @@ Thanks to [this](https://www.reddit.com/r/archlinux/comments/rlpaj9/pulseaudio_r
 You can verify if you meet these requirements by running:
 
 ```bash
-ps aux | grep pulseaudio # it should returns the pulseaudio running.
-which pactl # it should return the path of pactl.
-which mplayer # it should return the path of mplayer.
-which xbindkeys # it should return the path of xbindkeys.
+ps aux | grep pulseaudio # It should return the status of the running PulseAudio.
+which pactl # It should return the path of pactl.
+which mplayer # It should return the path of mplayer.
+which xbindkeys # It should return the path of xbindkeys.
 ```
 
 ## Install required softwares
