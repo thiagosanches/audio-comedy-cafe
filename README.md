@@ -135,4 +135,4 @@ However, if you ran that command without being in a meeting, this is where pavuc
 
 ![Alt text](image-2.png)
 
-This is true if your meeting has ended and you've started a new one. You'll need to switch it again in the new meeting.
+This is true if your meeting has ended and you've started a new one. You'll need to switch it again in the new meeting. Additionally, if you shut down your computer, you'll need to run the [load.sh](./load.sh) script again.
