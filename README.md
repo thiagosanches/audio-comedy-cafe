@@ -110,7 +110,13 @@ A sample file will be generated, and all you need to do is add your own hotkeys 
 
 Update the `user` value in the path to match your own username.
 
-**Note**: If you wish to use a different key combination, you can utilize the following command. It will open an X11 utility that allows you to select and display the key or key combination you want by focusing on it and pressing the desired key.
+**Note**: If you wish to use a different key combination, you can utilize the following command. 
+
+```bash
+xbindkeys --key
+```
+
+It will open an X11 utility that allows you to select and display the key or key combination you want by focusing on it and pressing the desired key.
 
 
 ## Start/restarting xbindkeys
