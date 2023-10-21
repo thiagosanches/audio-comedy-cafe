@@ -27,6 +27,13 @@ which xbindkeys # It should return the path of xbindkeys.
 sudo apt install -y pavucontrol mplayer xbindkeys
 ```
 
+## Clone this repository
+
+```bash
+mkdir ~/github/ && cd ~/github
+git clone https://github.com/thiagosanches/audio-comedy-cafe.git
+```
+
 
 ## Check your input devices
 
@@ -75,6 +82,8 @@ pactl set-source-volume "${MIC}" 60000
 pactl set-default-source CombinedInput.monitor
 ```
 
+You can find these commands in the [load.sh](./load.sh) file.
+
 **Note**: Run that script only once!
 
 And that's it! You're all set to start using it! The following steps will assist you in configuring hotkeys and provide guidance on potential issues we've encountered during this process.
@@ -93,11 +102,11 @@ A sample file will be generated, and all you need to do is add your own hotkeys 
 ## Configuration file example
 
 ```bash
-"/home/user/acc/play.sh /home/user/acc/audio1.mp3"
+"/home/user/github/audio-comedy-cafe/play.sh /home/user/github/audio-comedy-cafe/audio1.mp3"
     Control+Shift+1
-"/home/user/acc/play.sh /home/user/acc/audio2.mp3"
+"/home/user/github/audio-comedy-cafe/play.sh /home/user/github/audio-comedy-cafe/audio2.mp3"
     Control+Shift+2
-"/home/user/acc/play.sh /home/user/acc/audio3.mp3"
+"/home/user/github/audio-comedy-cafe/play.sh /home/user/github/audio-comedy-cafe/audio3.mp3"
     Control+Shift+3
 ```
 
@@ -129,4 +138,3 @@ However, if you ran that command without being in a meeting, this is where pavuc
 ![Alt text](image-2.png)
 
 This is true if your meeting has ended and you've started a new one. You'll need to switch it again in the new meeting.
-
